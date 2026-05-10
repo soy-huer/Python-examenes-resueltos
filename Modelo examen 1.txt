@@ -1,0 +1,32 @@
+Modelo de examen N° 1
+Contexto: Una librería quiere analizar el rendimiento de sus ventas diarias por artículo. 
+Se registrará cada venta con su artículo, rubro, precio y unidades vendidas para luego generar reportes.
+
+1) Registro de Datos:
+Solicitar al usuario la cantidad de ventas a registrar.
+Por cada venta, ingresar:
+Artículo (texto)
+Rubro (1 = Útiles escolares, 2 = Literatura, 3 = Técnica, 4 = Varios)
+Precio unitario (validar número positivo con try-except)
+Unidades vendidas (validar entero positivo con try-except)
+Almacenar los datos en listas paralelas: articulos, rubros, precios, unidades.
+
+2) Funcionalidades del Sistema:
+El programa debe mostrar un menú con estas opciones:
+	1   Mostrar todas las ventas con: artículo, rubro (en texto), precio, unidades y monto de la venta (precio × unidades).
+	2.  Mostrar el artículo con mayor monto de venta.
+	3.  Mostrar el artículo con menor monto de venta.
+	4.  Calcular y mostrar el promedio de monto vendido (sobre todas las ventas).
+	5.  Mostrar los artículos cuyo monto vendido supera el promedio.
+	6.  Calcular y mostrar el porcentaje de ventas del rubro “Literatura” (código 2).
+	7.  Contar cuántas ventas tuvieron unidades ≥ 5.
+	8.  Buscar una venta por nombre de artículo y mostrar su rubro, precio, unidades y monto.
+	9.  Mostrar el total general vendido (suma de todos los montos).
+	10. Salir del programa.
+
+Requisitos
+Implementar funciones con envío de parámetros y retorno de valor para cada punto del menú.
+Usar ciclos (for, while) y estructuras de selección (if/elif/else).
+Se permite el uso de funciones como sum(), min(), max(), etc. (si querés, podés pedir una variante sin estas funciones).
+Validar entradas numéricas con try-except.
+Trabajar siempre con listas paralelas.

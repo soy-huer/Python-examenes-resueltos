@@ -1,0 +1,34 @@
+Modelo de examen N° 2
+Contexto: Un club de básquet quiere analizar los datos de sus jugadores femeninos y masculinos para generar estadísticas 
+deportivas y reportes del equipo. Se registrará cada jugador con su nombre, sexo, edad y altura para luego realizar diferentes consultas.
+
+1) Registro de Datos:
+Solicitar al usuario la cantidad de jugadores a registrar.
+Por cada jugador, ingresar:
+Nombre del jugador (texto)
+Sexo (F = Femenino, M = Masculino)
+Edad (validar número positivo con try-except)
+Altura en metros (validar número positivo con try-except)
+
+Almacenar los datos en listas paralelas:
+nombres, sexos, edades, alturas.
+
+2) Funcionalidades del Sistema:
+El programa debe mostrar un menú con estas opciones:
+    1. Mostrar todos los datos de los jugadores: nombre, sexo, edad y altura.
+    2. Mostrar el nombre y edad del jugador masculino más alto.
+    3. Calcular y mostrar el promedio de altura de las jugadoras femeninas.
+    4. Mostrar las jugadoras cuya altura sea mayor al promedio femenino.
+    5. Mostrar las jugadoras cuya altura sea menor al promedio femenino.
+    6. Mostrar los jugadores masculinos que midan más de 2 metros.
+    7. Buscar un jugador por nombre y mostrar sus datos: sexo, edad y altura.
+    8. Calcular y mostrar el promedio general de altura entre ambos sexos.
+    9. Contar cuántos jugadores tienen más de 25 años.
+    10. Salir del programa.
+
+Requisitos
+Implementar funciones con envío de parámetros y retorno de valor.
+Usar ciclos (for, while) y estructuras de selección (if/elif/else).
+No se permite el uso de funciones como sum(), min(), max(), etc. Validar entradas numéricas con try-except.
+Trabajar siempre con listas paralelas.
+

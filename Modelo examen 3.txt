@@ -1,0 +1,32 @@
+Modelo de examen N° 3
+Contexto: Una panadería desea analizar las ventas de sus distintos rubros durante los 12 meses del año 2022 para generar estadísticas de recaudación y rendimiento anual.
+Se registrará la recaudación mensual de los rubros PANADERIA, MASAS y FACTURAS.
+
+1) Registro de Datos:
+Cargar las ventas de los 12 meses del año 2022 para cada rubro:
+PANADERIA
+MASAS
+FACTURAS
+
+Cada rubro deberá almacenarse en una lista de 12 elementos.
+
+Almacenar los datos en listas paralelas:
+panaderia, masas, facturas.
+
+2) Funcionalidades del Sistema:
+El programa debe mostrar un menú con estas opciones:
+    1. Mostrar el total recaudado en los meses de ENERO, MAYO, SEPTIEMBRE y DICIEMBRE.
+    2. Calcular y mostrar el promedio de recaudación en ventas de MASAS y FACTURAS.
+    3. Mostrar el rubro con mayor venta anual.
+    4. Mostrar el mes de mayor venta en PANADERIA.
+    5. Mostrar el mes de menor venta en MASAS.
+    6. Calcular y mostrar el promedio de ventas en JULIO considerando todos los rubros.
+    7. Mostrar el rubro de mayor venta en DICIEMBRE.
+    8. Salir del programa.
+
+Requisitos
+NO usar funciones sum(), max(), min() ni count().
+Implementar funciones con envío de parámetros y retorno de valor.
+Usar ciclos (for, while) y estructuras de selección (if/elif/else).
+Validar entradas numéricas con try-except.
+Trabajar siempre con listas paralelas.
